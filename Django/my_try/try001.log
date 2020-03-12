@@ -1,0 +1,7 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 08, 2020 - 23:30:29
+Django version 3.0.3, using settings 'my_try.settings'
+Starting development server at http://0.0.0.0:88/
+Quit the server with CONTROL-C.

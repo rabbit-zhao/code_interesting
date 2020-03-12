@@ -1,0 +1,54 @@
+>>> import os
+>>> path = "G:/新建文件夹"
+>>> files = os.listdir(path)
+>>> for file in files:
+... 	print(file)
+... 
+3.jpg
+>>> dir = os.path.join(path, "3.jpg")
+>>> dir
+'G:/新建文件夹\\3.jpg'
+>>> file_split = file.split(".")
+>>> new_dir = os.path.join(path, "4"+".jpg")
+>>> os.rename(dir, new_dir)
+>>> os.mkdir(os.path.join(path, "a"))
+>>> os.mkdir(os.path.join(path, "a"))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'G:/新建文件夹\\a'
+>>> try:
+... 	os.mkdir(os.path.join(path, "a"))
+... else:
+  File "<stdin>", line 3
+    else:
+       ^
+SyntaxError: invalid syntax
+>>> try；
+  File "<stdin>", line 1
+    try；
+       ^
+SyntaxError: invalid character in identifier
+>>> try:
+... 	os.mkdir(os.path.join(path, "a"))
+... except:
+... 	pass
+... 
+>>> import shutil
+>>> shutil.copy(dir, "path" + "\\a")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "E:\anaconda3\lib\shutil.py", line 245, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "E:\anaconda3\lib\shutil.py", line 120, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'G:/新建文件夹\\3.jpg'
+>>> shutil.copy(new_dir, "path" + "\\a")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "E:\anaconda3\lib\shutil.py", line 245, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "E:\anaconda3\lib\shutil.py", line 121, in copyfile
+    with open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: 'path\\a'
+>>> shutil.copy(new_dir, path + "\\a")
+'G:/新建文件夹\\a\\4.jpg'

